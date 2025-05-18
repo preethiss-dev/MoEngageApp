@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <div class="content">
+    <div class="text">Login</div>
+    <form id="login" action="LoginServlet" method="post">
+      <div class="field">
+        <input class="input" type="text" placeholder="Email" name="email" required>
+      </div>
+      <div class="field">
+        <input class="input" type="password" placeholder="Password" name="password" required>
+      </div>
+      <button type="submit" class="button">Login</button>
+    </form>
+    <div class="sign-up">
+      Don't have an account? <a href="sighnUp.html">Sign up</a>
+    </div>
+  </div>
+</body>
+</html>

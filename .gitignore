@@ -1,0 +1,11 @@
+# Eclipse and Java Web Project ignores
+.classpath
+.project
+.settings/
+target/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

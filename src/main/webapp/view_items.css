@@ -1,0 +1,88 @@
+body {
+    background: #dde1e7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    background: #dde1e7;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73,
+                 2px 2px 5px rgba(94,104,121,0.288);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background: #dde1e7;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px #BABECC, -5px -5px 10px #ffffff73;
+    width: 220px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.code-label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.action-buttons {
+    margin-top: 10px;
+}
+
+.action-buttons form {
+    display: inline;
+}
+
+.button {
+    padding: 6px 12px;
+    margin: 4px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.edit-button {
+    background-color: #f39c12;
+}
+
+.back-link {
+    display: block;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
