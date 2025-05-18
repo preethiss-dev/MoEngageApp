@@ -29,9 +29,6 @@ This is a simple Java-based web application that allows users to:
 4. Update DB connection settings in the DAOImpl files
 5. Run the app on `http://localhost:8080/MoEngageApp`
 
-## 🖼️ Screenshots
-
-> Add screenshots of your working UI here (Search, View Lists, Edit/Delete)
 
 ## 🧠 Credits
 
